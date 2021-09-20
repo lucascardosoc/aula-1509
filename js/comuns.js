@@ -46,7 +46,34 @@ console.log(`${n1} + ${n2} = ${n1 + n2}`)
 console.log(`${n1} - ${n2} = ${n1 - n2}`)
 console.log(`${n1} * ${n2} = ${n1 * n2}`)
 console.log(`${n1} / ${n2} = ${n1 / n2}`)
+console.log(`${n1} elevado a ${n2} = ${n1 ** n2}`)
 
-{
-  ()
+let n3 = '2'
+console.log(typeof n3)
+console.log(`${n1} == ${n3} = ${n1 == n3}`)
+
+//Comparacão entre o valor e tipo do dado
+console.log(`${n1} === ${n3} = ${n1 === n3}`)
+
+//if - while - for - switch == iguais Java
+//string - math - date - array
+
+// Array
+const pessoas = ['Eu', 'Tu', 'Ele', 'Nós', 'Vós', 'Eles']
+console.log(pessoas)
+
+//juntar dados diferentes
+const coisas = ['Eu mesmo', 123, true, 99.89, 'JS', false]
+console.log(coisas)
+console.log(coisas[4])
+
+//funcões
+function mensagem() {
+  alert('Olá sou uma funcão')
 }
+
+//pegar os botões e atribuir um evento de click
+document.querySelector('#btn-1').addEventListener('click', mensagem)
+document.querySelector('#btn-2').addEventListener('dblclick', mensagem)
+document.querySelector('#btn-3').addEventListener('mouseover', mensagem)
+document.querySelector('#btn-4').addEventListener('mouseout', mensagem)
